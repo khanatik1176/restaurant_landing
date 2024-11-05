@@ -29,6 +29,7 @@ export default {
         customerclr: '#FEBF00',
         footerclr: '#F7F8F9',
         nioclr: '#FEBF00',
+        fooditemclr: '#fbf7f2',
       },
       backgroundImage: {
         'top-bg': "url('./assets/Bg-img.png')",
@@ -51,6 +52,7 @@ export default {
         'Roboto': ["Roboto", "sans-serif"],
         'BebusNeue': ["BebusNeue", "sans-serif"],
         'Montserrat': ["Montserrat", "sans-serif"],
+        'Inter': ["Inter", "sans-serif"],
       },
       spacing: {
         '0.1': '0.1rem',
