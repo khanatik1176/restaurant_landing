@@ -40,7 +40,7 @@ const CustomerArea = () => {
         <h1 className='font-BebusNeue font-bold text-foodtxtclr text-2xl xs:text-3xl sm:text-4xl md:text-3xl lg:text-5xl relative left-5 top-10 xs:top-10 xs:left-5  sm:left-10 md:left-36 lg:left-36 xl:left-36 2xl:left-60 2xl:top-16 w-[250px]  xs:w-[300px] sm:w-[500px] md:w-full'>WHAT SOME OF MY CUSTOMER SAY</h1>
       </div>
 
-      <div className="video-area bg-customerclr bg-customer-bg bg-no-repeat bg-left-bottom w-[350px] xs:w-[400px] h-[700px] sm:w-[600px] sm:h-[800px] md:w-[600px] md:h-[400px] lg:w-[700px] lg:h-[400px] xl:w-[900px] xl:h-[400px] 2xl:w-[1100px] 2xl:h-[400px] relative left-4 top-20 xs:left-4 xs:top-20 sm:left-10 sm:top-20 md:left-30 md:top-30 lg:left-30 lg:top-26 xl:left-60 xl:top-20  2xl:left-100 2xl:top-26">
+      <div className="video-area bg-customerclr bg-customer-bg bg-no-repeat bg-left-bottom w-[350px] xs:w-[400px] h-[700px] sm:w-[600px] sm:h-[800px] md:w-[600px] md:h-[400px] lg:w-[700px] lg:h-[400px] xl:w-[900px] xl:h-[400px] 2xl:w-[1100px] 2xl:h-[400px] relative left-5 top-20 xs:left-4 xs:top-20 sm:left-10 sm:top-20 md:left-30 md:top-30 lg:left-30 lg:top-26 xl:left-60 xl:top-20  2xl:left-100 2xl:top-26">
         <hr  className='relative top-165 xs:top-165 sm:top-190 md:top-90 md:left-8 lg:top-90 lg:left-20 xl:top-90 xl:left-24 2xl:top-90 2xl:left-20 border-AboutNmbr w-[310px] xs:w-[360px] sm:w-[560px] md:w-[300px] lg:w-[270px] xl:w-[340px] 2xl:w-[440px]'/>
         <div className="inner-area flex flex-col-reverse md:flex-row">
           <div className='slider-area mt-10 relative w-full'>
@@ -111,7 +111,7 @@ const CustomerArea = () => {
                   <span className='text-5xl font-Cotoris font-bold text-Aboutclr absolute -left-5 bottom-27 xs:-left-5 xs:bottom-22 sm:-left-5 sm:bottom-14 md:-left-6 md:bottom-40 lg:-left-7 lg:bottom-26 xl:-left-8 xl:bottom-18 2xl:-left-8 2xl:bottom-20'>“</span> A great place to dine with friends. The staff was friendly, and the food was served hot and fresh. Highly recommended!
                   </h1>
                 </div>
-                <div className="lower-area flex justify-between relative top-50 xs:top-41 sm:top-33 md:top-32 md:left-8 lg:top-32 xl:top-38 xl:left-14 2xl:top-38 2xl:left-10">
+                <div className="lower-area flex justify-between relative top-43 xs:top-41 sm:top-33 md:top-32 md:left-8 lg:top-32 xl:top-38 xl:left-14 2xl:top-38 2xl:left-10">
                   <div className="lower-text-area relative left-12 xs:left-12 sm:left-12 md:left-3 lg:left-13 lg:top-2 xl:top-0 xl:left-10 2xl:left-10">
                     <h3 className='text-AboutNmbr font-bold lg:text-base xl:text-lg font-BebusNeue'>KHALID AL DAWSRY</h3>
                     <p className='text-Aboutclr font-Roboto lg:text-xs xl:text-sm'>Jeddah, Saudi</p>
