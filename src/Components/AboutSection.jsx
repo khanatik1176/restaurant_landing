@@ -29,15 +29,15 @@ const AboutSection = () => {
       case 'Experience':
         return (
           <div className="relative left-10 xl:bottom-7">
-            <h1 className='text-xl xs:text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-5xl font-BebusNeue w-[350px] xs:w-[400px] sm:w-[500px] md:w-[300px] lg:w-[500px] xl:w-[700px] 2xl:w-[880px] leading-tight text-Aboutclr font-bold'>EXPERIENCE THE DELICIOUS FOOD</h1>
-            <p className='font-Roboto text-base text-Aboutclr w-[320px] xs:w-[350px] sm:w-[500px] md:w-[300px] lg:w-[400px] xl:w-[700px] 2xl:w-[880px] text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
+            <h1 className='text-3xl xs:text-3xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-5xl font-BebusNeue w-[350px] xs:w-[400px] sm:w-[500px] md:w-[300px] lg:w-[500px] xl:w-[700px] 2xl:w-[880px] leading-tight text-Aboutclr font-bold'>EXPERIENCE THE DELICIOUS FOOD</h1>
+            <p className='font-Roboto text-base text-Aboutclr pt-4 w-[320px] xs:w-[350px] sm:w-[500px] md:w-[300px] lg:w-[400px] xl:w-[700px] 2xl:w-[880px] text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
           </div>
         );
       case 'Contact':
         return (
           <div className="relative left-10 xl:bottom-7">
-          <h1 className='text-xl xs:text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-5xl font-BebusNeue w-[350px] xs:w-[400px] sm:w-[500px] md:w-[300px] lg:w-[500px] xl:w-[700px] 2xl:w-[880px] leading-tight text-Aboutclr font-bold'>CONTACT WITH US</h1>
-          <p className='font-Roboto text-base text-Aboutclr w-[320px] xs:w-[350px] sm:w-[500px] md:w-[300px] lg:w-[400px] xl:w-[700px] 2xl:w-[880px] text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
+          <h1 className='text-3xl xs:text-3xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-5xl font-BebusNeue w-[350px] xs:w-[400px] sm:w-[500px] md:w-[300px] lg:w-[500px] xl:w-[700px] 2xl:w-[880px] leading-tight text-Aboutclr font-bold'>CONTACT WITH US</h1>
+          <p className='font-Roboto text-base text-Aboutclr pt-4 w-[320px] xs:w-[350px] sm:w-[500px] md:w-[300px] lg:w-[400px] xl:w-[700px] 2xl:w-[880px] text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
         </div>
         );
       default:
@@ -49,11 +49,11 @@ const AboutSection = () => {
     <div className='bg-white md:bg-about-bg  bg-no-repeat bg-right-bottom h-270 xs:h-270 sm:h-300 md:h-220 lg:h-220 xl:h-250 2xl:h-250 about-area md:overflow-hidden'>
       <div className="upper-two-area grid grid-cols-1 md:grid-cols-2">
 
-        <div className="about-img-area relative left-10 top-6 xs:left-10 xs:top-6 sm:left-10 sm:top-6 md:left-20 md:top-10 lg:left-5 lg:top-10 xl:left-36 2xl:left-58 xl:top-44 2xl:top-44">
+        <div className="about-img-area relative left-10 top-6 xs:left-10 xs:top-6 sm:left-10 sm:top-6 md:left-20 md:top-11 lg:left-5 lg:top-10 xl:left-36 2xl:left-58 xl:top-44 2xl:top-44">
           <img src={AboutImg} alt="About Image" className=' w-[300px] xs:w-[350px] sm:w-[570px] md:w-[280px] lg:w-[460px] xl:w-[500px] 2xl:w-[600px]'/>
         </div>
 
-        <div className="text-area relative md:-left-15 lg:top-0 lg:-left-6 xl:right-20 2xl:right-50 xl:top-32 xl:w-[800px] 2xl:w-[900px]">
+        <div className="text-area relative md:-left-8 lg:top-0 lg:-left-6 xl:right-20 2xl:right-50 xl:top-32 xl:w-[800px] 2xl:w-[900px]">
           <div className="about-area">
             <div className="about-button-area">
               <div className="flex sm:space-x-1 md:space-x-2 lg:space-x-1 xl:space-x-2 relative left-10 top-12">

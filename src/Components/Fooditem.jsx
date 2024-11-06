@@ -73,14 +73,14 @@ const Fooditem = () => {
   };
 
   return (
-    <div className='bg-fooditemclr md:bg-food-bg bg-no-repeat bg-top-left h-148 xs:h-148 sm:h-130 md:h-140 lg:h-140 xl:h-140 2xl:h-140 about-area md:overflow-hidden'>
+    <div className='bg-fooditemclr md:bg-food-bg bg-no-repeat bg-top-left h-148 xs:h-148 sm:h-140 md:h-152 lg:h-140 xl:h-140 2xl:h-140 about-area md:overflow-hidden'>
       <div className="food-text-area relative md:top-4 lg:top-6 xl:top-6 2xl:top-6">
-        <span className='bg-foodclr w-1 h-1 p-1.5 flex justify-start items-center relative left-10 xs:left-10 top-5 sm:left-20 sm:top-5 md:left-36 md:top-7 lg:left-40 lg:top-7 xl:left-60 xl:top-6 2xl:left-60 2xl:top-6'></span>
-        <p className='text-foodclr font-Roboto text-lg font-bold relative left-16 xs:left-16 sm:left-26 md:left-40 md:top-2 lg:left-46 lg:top-2 xl:left-66 xl:top-1 2xl:left-66 2xl:top-1'>Crispy, Every Bite Taste</p>
-        <h1 className='font-BebusNeue font-bold text-foodtxtclr text-2xl xs:text-3xl sm:text-4xl md:text-5xl relative left-10 top-3 tracking-tighter xs:left-10  sm:left-20 md:left-36 lg:left-40 xl:left-60 2xl:left-60'>POPULAR FOOD ITEMS</h1>
+        <span className='bg-foodclr w-1 h-1 p-1.5 flex justify-start items-center relative left-10 top-8 xs:left-10 xs:top-8 sm:left-20 sm:top-10 md:left-36 md:top-12 lg:left-40 lg:top-7 xl:left-60 xl:top-6 2xl:left-60 2xl:top-6'></span>
+        <p className='text-foodclr font-Roboto text-lg font-bold relative left-16 top-3 xs:left-16 xs:top-3 sm:left-26 sm:top-5 md:left-42 md:top-7 lg:left-46 lg:top-2 xl:left-66 xl:top-1 2xl:left-66 2xl:top-1'>Crispy, Every Bite Taste</p>
+        <h1 className='font-BebusNeue font-bold text-foodtxtclr text-2xl xs:text-3xl sm:text-4xl md:text-5xl relative left-10 top-10 tracking-tighter xs:left-10 xs:top-10  sm:left-20 sm:top-10 md:left-36 md:top-12 lg:left-40 lg:top-0 xl:left-60 xl:top-6 2xl:left-60'>POPULAR FOOD ITEMS</h1>
       </div>
 
-      <div className='w-[300px] xs:w-[350px] sm:w-[600px] md:w-[600px] lg:w-[700px] xl:w-[1000px] sm:h-[500px] 2xl:w-[1300px] 2xl:h-[500px] relative top-10 left-10 xs:top-10 xs:left-10 sm:top-20 sm:left-6 md:left-30 md:top-20 lg:left-40 lg:top-10 xl:left-60 xl:top-14 2xl:left-60 2xl:top-14'>  
+      <div className='w-[300px] xs:w-[350px] sm:w-[600px] md:w-[600px] lg:w-[700px] xl:w-[1000px] sm:h-[500px] 2xl:w-[1300px] 2xl:h-[500px] relative top-10 left-10 xs:top-10 xs:left-10 sm:top-30 sm:left-6 md:left-30 md:top-30 lg:left-40 lg:top-10 xl:left-60 xl:top-14 2xl:left-60 2xl:top-14'>  
       <Slider ref={sliderRef} {...settings}>
         {foodItems.map((fooditem) => (
           <div className="card bg-white w-[500px] h-[300px] sm:w-[400px] sm:h-[250px]  mx-0 my-10" key={fooditem.id}>
@@ -95,7 +95,7 @@ const Fooditem = () => {
       </Slider>
       </div>
 
-      <div className="flex justify-center mt-4 relative -bottom-5 xs:-bottom-5 xs:left-1 sm:bottom-124 sm:left-40 md:bottom-120 md:left-60 lg:bottom-140 lg:left-86 xl:bottom-140 xl:left-120 2xl:bottom-140 2xl:left-130">
+      <div className="flex justify-center mt-4 relative -bottom-5 xs:-bottom-5 xs:left-1 sm:bottom-114 sm:left-40 md:bottom-110 md:left-60 lg:bottom-140 lg:left-86 xl:bottom-140 xl:left-120 2xl:bottom-140 2xl:left-130">
         <button
           className='bg-white w-16 h-16 p-1.5 rounded-full border shadow-xl flex justify-center items-center mx-2'
           onClick={() => sliderRef.current.slickPrev()}

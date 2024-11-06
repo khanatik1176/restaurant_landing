@@ -44,7 +44,7 @@ const Footer = () => {
   return (
     <div className='bg-footer-bg bg-no-repeat bg-cover h-230 sm:h-240 md:h-140 lg:h-140 xl:h-140 2xl:h-160 footer-area md:overflow-hidden'>
       <div className="footer-text-area">
-        <h1 className='font-BebusNeue text-white tracking-tighter text-3xl xs:text-3xl md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-5xl font-bold text-center w-[350px] xs:w-[350px] sm:w-[600px] md:w-[700px] lg:w-[1000px] xl:w-[1400px] 2xl:w-[1400px] relative top-10 left-5 xs:top-10 xs:left-10 sm:top-20 sm:left-10 md:top-20 md:left-20 lg:top-30 lg:left-10 xl:top-30 xl:left-20 2xl:top-30 2xl:left-50'>
+        <h1 className='font-BebusNeue text-white tracking-tighter text-3xl xs:text-3xl md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-5xl font-bold text-center w-[350px] xs:w-[350px] sm:w-[600px] md:w-[700px] lg:w-[1000px] xl:w-[1400px] 2xl:w-[1400px] relative top-10 left-5 xs:top-10 xs:left-10 sm:top-20 sm:left-10 md:top-20 md:left-12 lg:top-24 lg:left-5 xl:top-30 xl:left-20 2xl:top-30 2xl:left-50'>
           WE READY TO HAVE YOU THE BEST DINING EXPERIENCES
         </h1>
       </div>
