@@ -1,8 +1,5 @@
-# React + Vite
+# Restaurant Landing 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This restaurant landing page is built with React.js, Tailwind CSS, and Daisy UI. It features a clean, modern design with a food item slider powered by React Slick. The page is responsive and user-friendly, providing an attractive showcase for the restaurant’s offerings.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live Link: https://khanatik1176.github.io/restaurant_landing/
